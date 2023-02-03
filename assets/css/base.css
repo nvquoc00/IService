@@ -1,0 +1,69 @@
+:root {
+  --dark: #383d40;
+  --blue: #277cfb;
+  --blue-light: #f2f8ff;
+  --blue-text: #103569;
+}
+
+html,
+body {
+  font-family: SF Pro Display, sans-serif;
+  font-size: 20px;
+}
+.wrapper {
+  max-width: 1170px;
+  width: 100%;
+  margin-inline: auto;
+  margin-bottom: 150px;
+}
+.btn {
+  height: 21px;
+  min-width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.slideShow {
+  margin-bottom: 150px;
+}
+.app-main-content {
+  color: #666666;
+}
+
+.features {
+  margin-top: 650px;
+  padding-left: 200px;
+
+  background: var(--blue-light);
+}
+
+.maneger {
+  margin-top: 150px;
+  display: flex;
+  gap: 85px;
+}
+
+.contact {
+  display: flex;
+  gap: 112px;
+  background: #ffffff;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.07);
+  border-radius: 8px;
+  height: 267px;
+  padding: 78px 78px 0px;
+  justify-content: center;
+}
+.footer {
+  width: 100%;
+  height: 434px;
+  position: absolute;
+  left: 0px;
+  top: 7218.94px;
+  background: var(--dark);
+  z-index: -1;
+  padding-top: 106px;
+  display: flex;
+}
